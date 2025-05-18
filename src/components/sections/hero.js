@@ -60,32 +60,34 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Sammya Majumdar</h2>;
+  const three = <h3 className="big-heading">Data Engineer</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I'm a data engineer at <a href="https://www.accenture.com">Accenture UK</a>. specializing in
+        building (and occasionally designing) scalable data solutions. I bring a robust technical
+        skillset working with a variety of frameworks and languages including Python, Spark, SQL
+        while remaining cloud agnostic to support a variety of environments.
+      </p>
+
+      <p>
+        I have a background in Electrical Engineering with a focus on Energy and Power Systems from
+        the <a href="https://www.liverpool.ac.uk">University of Liverpool</a>.{' '}
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Check out my course!
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
